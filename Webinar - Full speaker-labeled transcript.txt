@@ -1,0 +1,378 @@
+Webinar - Web Insights and AI Assistant
+Full speaker-labeled transcript
+Source: https://www.youtube.com/watch?v=lCZN1RNqrpo
+
+Full caption-based transcript of the 59:56 recording. Text is derived from the YouTube English automatic captions, with paragraph formatting and limited corrections to names and product terminology. Fillers and repetitions are retained. Speaker names are verified against the introduction slide; attribution is inferred from introductions, handoffs and conversational context, not automated voice diarization. This has not been fully checked against the audio, so caption wording and speaker attribution may contain errors. The brief throat-clearing at 31:15 cannot be confidently attributed. All nonempty caption segments are included; captions end at approximately 59:49. Statements about pricing and availability describe what was said in the recording.
+
+Bernardo Vestia — Director of Product Marketing (host)
+Mansi Harsh Sheth — VP Product
+Swapnil Gupta — Senior Product Manager
+
+[00:00:00] Bernardo Vestia
+Thank you everyone for uh joining us here today at our um product highlights webinar. We're going to be talking to you about uh the very exciting Web Insights um product and also we're going to um showcase also for the first time the upcoming AI assistant. two very very um important um product releases that we're that we're just about to do and that are going to change the way you interact with Leadfeeder, but also with your own data and how much you can know about what's happening with um your website, your business and
+
+[00:00:50] Bernardo Vestia
+uh what how marketing is working. So just an overview of the agenda today. Uh we're going to kick things off uh with Mansi. She's going to take us over some of the recent launches. Um just to make sure that you are uh aware of all of these things that we're also super proud of and they are very important things uh that enable you to um do proper and better uh lead qualification and routing and making sure that you are keeping up with the audiences and um sending all of that data into your CRM.
+
+[00:01:33] Bernardo Vestia
+them. There's also uh the very exciting uh developments that we've done with our API and our uh MCP server and also the latest uh addition to our roster which is companies which is a new way for you to prospect uh our over 60 million plus company database. Then we're going to go through the preview of what's upcoming.
+
+[00:02:00] Bernardo Vestia
+Uh and that's the very exciting Web Insights uh launch that we're going to announce today and also the Leadfeeder agent which is coming soon as well. And then by the end of this we're going to of course give you some time to ask some questions and we'll do a live Q&A so that we can answer any questions you may have to existing products. But hopefully you're as excited as we are with the new products and you also want to ask questions about the new product.
+
+[00:02:32] Bernardo Vestia
+So today as I said earlier we have my with us VP of product uh Swapnil senior product manager and myself director of product marketing. Um just want to say hi my Swapnil. [laughter] Um so we will start with my today uh with uh just an an an overview of the recent launches. But before that we have a live poll that we want to do with a very simple question.
+
+[00:03:07] Bernardo Vestia
+Well simple kind of depends on how you look at it. But the question or the answers is are pre-selected. So you just need to go through one of those options. And the question is, what's your biggest goal right now? Maybe not as simple as I put it earlier, but it is uh something we want to learn more about is uh what are your what are your thriving to to to accomplish?
+
+[00:03:37] Bernardo Vestia
+What's the thing that's keeping you up at night in a good way? So what's the thing that is driving you? what are the things that you need to get um in order to make it or what success look like for you? So that's the question we're asking now. So hopefully you see that already in the polls. That's the very first one we have. What's your biggest goal right now?
+
+[00:04:04] Bernardo Vestia
+If you want to know where the polls are, they should be appearing at the top left end of your screen on the left corner. You should see the co the polls there. Uh I can see we've already have uh almost 100 people voting. So that's that's very interesting. We'll keep those up. So whenever you have the chance, just go there and um vote on any of those um questions we have up.
+
+[00:04:35] Bernardo Vestia
+And now I'll pass the word on to my who is going to talk us about the recent launches.
+
+[00:04:44] Mansi Harsh Sheth
+Thank you Bernardo. So as Bernardo reiterated, we're very excited yet again and uh just to emphasize because I saw some questions there. Yes, we are recording this. So we'll share the recording later with all of you. But uh as mentioned, please stay a bit late because there's a bonus at the end of this presentation. So uh diving deep I want to just say that um over the last two quarters we have shipped more than any in this period.
+
+[00:05:13] Mansi Harsh Sheth
+Of course I'm biased and very proud of the team. We have done more than 14 launches. Each one we have done at the committed date and that's not an easy feat. uh but let me walk you through what we have changed and how you can act and act upon those for your accounts because also I see in the results that um you want to get more sales opportunities you want to find the best leads so these are the things we have been acting on exactly to serve the purpose starting with the intent goal so you want to ask the the team that asks the most right like who do I act on now and why which company should I prioritize now um exactly For that reason, we rebuilt our intent score from ground up.
+
+[00:05:56] Mansi Harsh Sheth
+The new configurable intent score is a live 0 to 10 score built from how a company actually behaves on your site focusing on real engagement signals and the buying behavior. And to specifically say we have three signals. How do you company engaged which we call as depth of engagement? So that contributes to the nature of visits, page views on those high intent pages, form submissions and even the medium like file download, videos that are played and so on.
+
+[00:06:28] Mansi Harsh Sheth
+Second is how often they come back uh which is called the frequency of visits. So the engagement on multiple days will show consistent interest in your results. Third is how many different people from their team visited which is the breadth of visits. So more visitors increase the intent. If a visitor has visited across multiple windows or time buckets, we would uh consider the most recent window for the calculation.
+
+[00:06:56] Mansi Harsh Sheth
+And this goes a bit more technical, but I want to still emphasize because it's important is that events older than 90 days are dropped off. So it reflects intent right now and not 3 months ago. So this is the intent score is one number, three tiers, high, medium, low. So your team knows exactly where to spend the next action on. Now once you know who's in the market, we move forward to the next item which is lists and workflows.
+
+[00:07:26] Mansi Harsh Sheth
+You shouldn't need to go into spreadsheets. Once you know that and that's why we have um rolled out lists and workflows which is basically two halves. List is where you typically decide what works. So you build a segment based on your ICP intent signals, CRM data to identify and prioritize the high value accounts, enrich those lists with AI agents to score, segment them, research the company and then find the right contacts and bug.
+
+[00:07:55] Mansi Harsh Sheth
+Now workflows is where you scale what works. So rules that run continuously when an account qualifies, enrich it, assign it and trigger the next action. So with workflows we move from manual lead handling and list management to event-driven automation which is the future that we are going towards. So this includes AI enrichment promps um that continuously enrich and score as new companies come up and the result will be a closed loop.
+
+[00:08:23] Mansi Harsh Sheth
+So you discover what converts in lists operationalize it in workflows and feed the results back into lists to refine. So it's a holistic flow in that manner. Now once you're done with that uh we have an enrichment enablement up next which was the CRM enrichment which is our fresh source of truth. Uh we know that the contacts and uh list that you create can go stale.
+
+[00:08:51] Mansi Harsh Sheth
+Your CRM needs to also be continuously up to date because of it. People change jobs, companies move, points of contact changes and such details need to be kept in sync, right? So CRM enrichment keeps it accurate on demand or automatically whatever you prefer. This is powered by our uh refresh database which is more than 60 million plus companies, 400 million verified contacts and it spots where your CRM and our data disagree.
+
+[00:09:23] Mansi Harsh Sheth
+That means it refreshes records on demand, in bulk or automated. You can decide in your list settings. And that means that with these three execution modes, uh you just have one set of rules. Every mode follows the same configured CRM field mapping rules. You set the rules once and ensure that the CRM data stays fresh.
+
+[00:09:48] Mansi Harsh Sheth
+Now you have the right accounts identified, enriched and prioritized in lists. It's ready for targeting. And then say you want to run LinkedIn campaigns directly against him, which would naturally mean you export the CSV, upload it and repeat. Highly manual. With syncing list to LinkedIn functionality, you can sync any list straight to your LinkedIn audiences. So you map it once and the audience keeps itself up to date as companies enter and leave the list.
+
+[00:10:16] Mansi Harsh Sheth
+You don't need to export CSVs anymore. You don't need to re-upload them every week. Your best fit high intent accounts become a live advertising audience and campaigns result flow back. So you can close the loop from targeting to impact. And let me say this, this is precision targeting. So Leadfeeder lists are built on intent signals and AI enriched uh contact identification not on what people have typed into their LinkedIn profile.
+
+[00:10:48] Mansi Harsh Sheth
+So your audience is made up of the contacts that actually fit your ICP. Um what I like to call as hyper segmentation. So this is running on autopilot. Once the mapping is set, intent signals, AI refinement and automatic sync run together continuously. So your campaigns get sharper over time without you putting in continuous extra work and once converted or disqualified which is also important they are automatically removed from the audience.
+
+[00:11:19] Mansi Harsh Sheth
+So you don't spend time on that extra step or whether they're disqualified accounts and I need to clean up my data after. Now these are the things that we had um for your experience part of things. There are much more that we did behind the scenes so to say which is the Leadfeeder API. Now we have a unified API that provides a single developer friendly interface to the entire platform. It merges with the eco IP enrich and Leadfeeder into one cohesive system which means company data, contact data, web visitor data and IP enrichment are now all accessible with a single API key.
+
+[00:11:59] Mansi Harsh Sheth
+And this is just the beginning and the first part of a deliberate strategic shift. We intend that you should be able to use Leadfeeder however you work in the UI through the API or the most excited that I'm about is the next slide straight from your AI interface which is the Leadfeeder MCP which we rolled out this year.
+
+[00:12:27] Mansi Harsh Sheth
+And again I'm based of course because it just gets better. Uh we have this in a way that your website has the answers right and now you can just ask you ask your Claude you ask your ChatGPT um enrich them build list push to CRM just by asking. You could ask which good fit companies visited my pricing page this week and you can act on the answer without even leaving the chat.
+
+[00:12:53] Mansi Harsh Sheth
+And as you might know for people who have already been our customers, our main differentiator is the first party website intent. So who is on your website right now fits your ICP and is worth acting on, you can all do in that interface. And only last month we integrated also our native plugins and connectors into Claude and ChatGPT marketplaces. So we're making the distribution stronger by the day.
+
+[00:13:20] Mansi Harsh Sheth
+a teaser. There's a dedicated MCP webinar coming soon. So if you want to go deep, Bernardo will share more details towards the end. So stay back for those interested.
+
+[00:13:30] Bernardo Vestia
+Yes. Thank you, man.
+
+[00:13:32] Mansi Harsh Sheth
+Of course. And last but not the least of what we shipped companies. Everything so far is about companies coming to your side. The company's features that we present flips it a bit which means enables you to find your next best customers. You could search Leadfeeder's global company data based on the filters that matter. Company size, industry, region, ICP segment, poster code, radius, whatever.
+
+[00:14:01] Mansi Harsh Sheth
+Uh or you could just describe your idle customer in plain language and let AI do the job for you. Then you can also qualify with AI. That means you can let AI research the companies you found, who's growing, what tools they use, who are the best contacts to reach out to, and fill those details in your uh in a way that your database doesn't have to. This answers show up then in columns and sort and filters, which you can then look into our product um on how that experience looks.
+
+[00:14:29] Mansi Harsh Sheth
+But you also saw that in the in the demo that's being shown on the slide. Then once every company gets scored on fit and intent, you can act on it. So you work the best ones first, then send them straight to your CRM. And the best part is this is fresh. This is dynamic and not stale list. So you're working with current contacts and signals, not a list that was updated a couple of weeks ago.
+
+[00:14:57] Mansi Harsh Sheth
+This li list itself keeps on updating, connecting it to a workflow to keep new matches and refresh signals flowing in. So this brings you into both sides of the spectrum that you have control over and those are everything that we shipped in a quick view. There's a lot more details into it. You need to try the product if you haven't already to get to know a bit. Um but going ahead I want to focus more on what is coming up uh that is in store for leader ahead.
+
+[00:15:29] Mansi Harsh Sheth
+But before that a poll I see. So Bernard over to you.
+
+[00:15:33] Bernardo Vestia
+Yes. So thanks you thank you Mansi for the very um interesting way to tell the story about the recent launches. I think uh you've made a very compelling uh story line there. So thank you for that and make perfect sense. Um second question we want to ask you today. Um this is this is one that matters really a lot to us which is we want to know where you see Leadfeeder making the biggest uh impact on your business recently.
+
+[00:16:09] Bernardo Vestia
+So this is really important. We want to reflect on that because this will help us understand what are the things that we need to double down on what are the things that we need to continue to do to continue to deliver value for you. So that's the the the the main question we're asking now is where you see Leadfeeder uh providing value. Um this is really important for us. So please please please if you just click on the uh answer that best fits what you're thinking.
+
+[00:16:42] Bernardo Vestia
+It will be very very helpful for us. Um and uh it's just a just a click. So that's the question we wanted to ask. But without further ado, we want to go to the next moment in our webinar today, which is what's coming up next.
+
+[00:17:04] Mansi Harsh Sheth
+Yes. Um thank you very much. While you answer, I want to go ahead and now the part that show you the part that we have been gearing up for and um aiming up for next. So this was also introduced by the way in the previous webinar but I want to still emphasize this um so that you get a picture of what we um strive for. So this is the whole engine. The website is the most important real estate so so to say in the B2B right and the part of the funnel customers usually have the least clarity on as well.
+
+[00:17:37] Mansi Harsh Sheth
+So our mission is to turn the B2B websites into lead generation engines with the purpose to empower marketers with the clarity needed to drive growth and ultimately with a vision to also become essential to B2B marketing as the website itself. And to accomplish that we have four pillars established to address it. These pillars are not just like pillars on paper but are four jobs that our customers require to be done well.
+
+[00:18:06] Mansi Harsh Sheth
+And that's what we want to move towards. First pillar is build and attract the right traffic to the website. Second is reveal and convert the anonymous visitors and companies behind it and turn them into leads. Then comes prioritize and action. Similar to the story that I was just saying, right? So now you prioritize and action what you just got the visitors and companies. These are the ones that are ready to buy.
+
+[00:18:32] Mansi Harsh Sheth
+So you score, enrich, activate leads from marketing, sales and revenue teams. And finally, you analyze and optimize. So you can prove and improve what's working um for your ROI. And that the Web Insights which Bernardo was teasing earlier is a big part of it. That's the first um base that we start on so you can analyze and optimize even better.
+
+[00:18:59] Mansi Harsh Sheth
+Based on this is the ecosystem which connects it all. So that's the stack uh the partner API the MCP connectors that I just shared. These are all that helps you build the trust and can access Leadfeeder from all sources. And one more thing is that this is built on a solid foundation of our IP to company database. So first party intent which is captured continuously. So we're building everything on that mode that we already have and everything we just showed lives in one of those by the way.
+
+[00:19:31] Mansi Harsh Sheth
+So whatever we do next or whatever we did until now will always connect to these accordingly. Moving ahead, we're bringing the next wave of website intelligence into play uh on the three dimensions. So in tandem with what I just said, we are glad to being uh in this wave which extends the strategy in three dimensions and all of this is based on the proprietary data that I was talking about.
+
+[00:20:01] Mansi Harsh Sheth
+The first is Web Insights uh not just who visited but which channels, campaigns and pages bring the companies you actually want. Second is data quality. the state-of-the-art B2B data that we bank on is getting better every month and we understand that it needs work. So, we're constantly evolving it. And third is the Leadfeeder agent which is an AI assistant that will help you do anything you want in Leadfeeder just by asking and of course that's the future where we see and that's where we are heading as well.
+
+[00:20:34] Mansi Harsh Sheth
+This also goes into the growth engine we saw before which is the agentic layer that sits across the four jobs. So where the agent can perform any action that you can do directly as well and we already have some things to show you. So I don't want to put more into the theory. I will give it over to Swapnil so he can give you a visual into what that means.
+
+[00:21:00] Swapnil Gupta
+Hi everyone. Thanks man. Thanks Bernardo. Super exciting stuff uh just shared by my uh I'm I'm truly like you know so excited for all of you to get your hands on of on all of these features and see what all u use cases you achieve with it how exactly you use them and what kind of feedback you have for us super curious super excited to to watch that happen um talking about what's next uh Mansi just shared uh the overall direction that we are heading towards and some of the key initiatives that we are going to be working on Web Insights is one of them.
+
+[00:21:37] Swapnil Gupta
+Um and before I jump into what it's all about, uh I have a very simple sounding question that I'm sure all of us uh you know uh get to hear every other week and that is what exactly uh are my traffic sources doing? Are they bringing the right um you know kind of impact that I'm looking for? Are they really working right? And for anyone that is outside of this GTM, you know, go to market industry, I think it would sound like such a simple question, but you and I know that it's not as simple as that, right?
+
+[00:22:13] Swapnil Gupta
+Um the analytics tools uh tell you, you know, which visitors are coming on your website, which traffic sources they are from, but they really don't tell you if they match with your ICP, right? These are the visitors. This this is the audience that you wanted to uh engage with you know with using your ads and all the content and all the social media initiatives that you are working on. Um so you either end up you know doing one of the two things like you either try to pull up numbers from analytics tools assume that the visitors are your ICP and you know look and wonder why they are not converting why the goals are not converting why they're not signing up for the ebook that you really want them to sign up for and and and all stuff like that or you try to connect the dots between your CRM and you know you see out of maybe one or two%
+
+[00:23:03] Swapnil Gupta
+people that did submit the forms and stuff like that. Um you try to look at um what was what was their first visit um what was their last visit um you try to connect the dots and you try to make a guess you know at best and that is honestly you know one of the biggest problems that we have as marketers. you were saying that it's 2026 and marketers would be able to you know analyze and the impact of all of their um you know efforts that they are basically working on every other day and that's uh essentially the answer that we are also after like we want to help our users uh we want to help marketing teams uh better understand the impact of all the efforts that they are working on every other day and we want to make it absolutely easy to find that out you not some sort of um you
+
+[00:23:53] Swapnil Gupta
+know mathematical initiative that you have to do with Google Sheets and whatnot uh downloading CSVs and oh my god we want this to be as simple as clicking on a button and you see the result and that's what we are after and we don't want to stop there um because once you know if you're reaching the right audience the next question is is that traffic source or is that campaign really bringing the uh pipeline and revenue venue that you want uh to uh you know basically attract because that's again one of the end goals that marketing is is essentially after and that's um don't get me started on how difficult attribution is you know in present day and again we want to make it absolutely simple for you to understand uh where what kind of pipeline and revenue impact all the campaigns
+
+[00:24:43] Swapnil Gupta
+and channels and website content and your social media initiatives and your demand generation in initiatives and everything else uh as directly on your pipeline and revenue. And that's pretty much Web Insights. So let's dive uh right into more about what Web Insights is. [clears throat] As I said, um what we want to do is we want to help you easily see which channels, which campaigns, and which pages on a website are really attracting your ICP audience.
+
+[00:25:14] Swapnil Gupta
+And we want to make it, you know, super simple to to do so. Um currently uh I'm sure like I said um you might be looking at analytics tools and um we are counting the visitors but we are not counting if they if the quality of the audience that you're reaching with all of these channels and campaigns. um we are spending um money on ads but we don't know if they are really reaching the the kind of ICP companies you have maybe they're just you know looking at some uh other industries and uh we are wondering why exactly the goals are not being converted why it's not really impacting the pipeline sorry so overall um all of this is something we want to be able to for our users to be able to achieve very simply
+
+[00:26:05] Swapnil Gupta
+using the Web Insights tool that we have been working on and like everyone said I'm so excited for everyone to get their hands on this the use case this unlocks for everyone is um achieved through some of our preset reports on channels campaigns pages graphics and and all sorts of things and uh the best part you know that I believe makes this super exciting for all our existing customers is that it doesn't need you to do anything.
+
+[00:26:35] Swapnil Gupta
+You know, you already have the website script uh installed. You're already looking at uh the website visitors that leader unlocks for you. It shows you the companies that uh are coming on your website. It shows you what they're doing on your website. Gives you enough enough fuel to qualify their website activity. Um and with Web Insights the same script the same data we already have will also unlock you unlock the entire analysis on on all your channels and campaigns and the performance of all the efforts that you have been doing.
+
+[00:27:07] Swapnil Gupta
+So for for our existing customers, like I said, they don't need to do anything. Um, you know, if you stick around for a while, you'll also get the chance to sign up for an early access to this. And uh the the day you'll have this, you'll have data for this uh entire year and you'll be able to already look at um the the efforts that you have been doing in the last year and what kind of results they have been generating for you.
+
+[00:27:34] Swapnil Gupta
+All right. uh let's dive a bit deeper uh on what the Web Insights tool that we'll be releasing uh very soon will help us achieve. This is going to be the first version. So I'm focusing on the uh the use cases that we'll uh unlock um right at launch but like I said I explained the direction that we want to go towards uh and there is so much more coming that uh I'm totally you know stoked to see this uh turning into a reality.
+
+[00:28:03] Swapnil Gupta
+So in Web Insights um there will be uh a super easy way for users uh to look at uh the overall performance of the website. So we're going to have an overview page where you'll basically see all the sessions that we have tracked on your website and remind uh let me remind you again um all the sessions right Web Visitors has been focused on giving you uh companies identified on your website.
+
+[00:28:31] Swapnil Gupta
+It comes through our proprietary IP database that we have been developing for more than a decade. So it is very accurate uh on that front. Uh but again there are some visits that you might not see coming up in Web Visitors because you know the visitors might be coming through mobile phones or some devices that we cannot identify. They they might be you know relocating and stuff like that. So Web Insights uh gives you full visibility on your website including the traffic that we can identify using our IP um database and the traffic that we couldn't identify but it still gives you the uh visibility and understanding of where that traffic is coming from what kind of actions they're doing on your website essentially you know something that all of us marketers really want to you know unlock.
+
+[00:29:18] Swapnil Gupta
+So we'll have an overview page uh for that. Um we'll have more reports. We'll have the traffic sources reports uh that gives you uh a an understanding of all the sources and mediums that the traffic is coming from and helps you understand u you know if they if the visitors that are visitors and companies that are coming from these uh traffic sources are performing the right actions like you know what kind of intent score are they reaching like maybe certain traffic sources are bringing in the right companies and certain traffic sources aren't doing that.
+
+[00:29:52] Swapnil Gupta
+Uh we'll also have um the ability to analyze the campaigns and that includes your Google ads and LinkedIn ads campaigns. If you have set up the integration uh in Leadfeeder, it will give you overall analysis of how much you have spent on bringing all the traffic to your website, what kind of uh quality the these campaigns are reaching, if they're performing the right actions on your website or not.
+
+[00:30:17] Swapnil Gupta
+Um all of this will be possible using our goals feature. Um you can set up goals on your website to understand uh you know to to track the most relevant actions on your website and uh Web Insights will help you see which channels which campaigns which initiatives and which efforts are you know really leading to that goal. The best part about Web Insights uh for me uh and also uh like you've answered in the poll uh is that it helps you check the audience quality.
+
+[00:30:46] Swapnil Gupta
+It helps you identify the companies that are really coming in through all of the you know that that have been engaging with your website content that have been coming in through the campaigns and channels that you have been working on and uh it tells you if they fit your ICP. It helps you understand the quality of audience that is engaging with all of all of your content. We'll also have the pages report of course uh giving you full visibility on what kind of pages this ICP audience is engaging with.
+
+[00:31:15] Unidentified speaker (non-speech)
+[clears throat]
+
+[00:31:16] Swapnil Gupta
+um what uh are the landing pages on a website you know that these ICP uh companies come to and uh what kind of actions they're performing over there and for uh everything that that the preset reports may not be able to help you with we also have the option to generate an AI based answer so you can simply ask a question and you know get the answer right in front of you so that's a lot of talk right that's a lot of features I've already shared with So I think uh we should jump into the actual demo of of the product.
+
+[00:31:51] Swapnil Gupta
+So let's look at all of these use cases in action and uh see what you think about it.
+
+[00:31:59] Bernardo Vestia
+Just take over and show us. Thank you.
+
+[00:32:15] Swapnil Gupta
+All right. So, uh my screen should be visible to everyone now. You can see u the Web Insights tool that we have been talking about in the session. Like I said, uh we have here the overview of the website. It tells me how many sessions uh have been tracked on my website, how many page views we have seen, what is the count of unique visitors that have been on my website and of course the most important part, how many companies we have identified on the website.
+
+[00:32:44] Swapnil Gupta
+Um you can easily look at you know different time intervals and see what what is the performance of the website over time. Um you know there might be certain days and repeats you might be getting better than others. uh there is a quick overview of the website performance. You can see the top channels that have been bringing traffic on a website. What is the ICP ratio of these channels because like in my opinion that's really an important metric to track like you know because if that's going off nothing that you'll be working on will give you the right results.
+
+[00:33:17] Swapnil Gupta
+Uh we'll also have uh this same ICP ratio metric for most of the you know dimensions that we have on in Web Insights. We have some top campaigns giving you visibility of what kind of uh campaigns have been driving traffic on your website or maybe the kind of traffic that you have not been tagging uh correctly and you should be tagging. So this is in this demo account we thinking all of these issues that Web Insights gives you unlocks for you.
+
+[00:33:47] Swapnil Gupta
+There's the top pages that uh most companies have been engaging with. um you know uh of course the ones that are looking at the pricing page is is the most important for you. You can track the goal conversions uh how many conversions you have seen for various goals. Goals are essentially of course um you'll know that uh goals are essentially the most relevant service that you want to track on your website.
+
+[00:34:12] Swapnil Gupta
+And again uh we have the company breakdown of your traffic and and this is something that uh I think is the most important part about Web Insights in leader and something that uh is absolutely difficult to get anywhere else and that's the company breakdown. It helps you look at um you know the overall distribution of it of your traffic. Uh what kind of industry the traffic you're attracting on a website is engaging u is is working on.
+
+[00:34:42] Swapnil Gupta
+Um what is the size of the companies that are you know visiting on your website? What's their location of headquarters? Um and if they match with your ICP or not and that's the overview page. um looking at some deeper reports we uh like I said we'll have this traffic sources report giving you um full visibility on your traffic sources uh you can check uh check out um essentially how each traffic source has been behaving over a period of time and track um certain periods where certain traffic sources might be working really well for you or some for some reasons might be dropping and you know dive deeper into the reasoning behind that uh below this we have the breakdown by each traffic source.
+
+[00:35:29] Swapnil Gupta
+Uh gives you full visibility on how many visits we have seen, how many visitors have been coming in, how many of them were new visitors, um what's the goal conversion each traffic source, identified visits and companies that we have seen and of course the most important part is the ICP ratio. This uh essentially helps you understand if certain traffic sources are bringing in more noise you know than what you'd want and noise is what I would call as a lot of visits a lot of engagement but not from the kind of companies that you'd want right and and this is what it it essentially unlocks uh for you we have uh a bunch of filters so you can also understand uh how for example a specific goal has you how a specific
+
+[00:36:19] Swapnil Gupta
+traffic source is behaving when it comes to a specific goal and you know what is the overall conversion rate of that goal. You can look at you know all the campaigns and and see if a specific campaign has been bringing traffic for you from you know specific traffic sources and uh and essentially you know dive deeper into the overall behavior of your of your website visitors.
+
+[00:36:45] Swapnil Gupta
+Uh similarly we also have uh the campaigns report giving you visibility on um you know the UTM campaigns, the Google ads campaigns and the LinkedIn ads campaigns that have been uh driving traffic to your website and the insights are kind of similar because you know that those are the most important metrics that you need to track for um for various campaigns. You can see what kind of visits and you know ICP ratio each campaign has, what kind of goal conversions each campaign is driving and so on and so forth.
+
+[00:37:16] Swapnil Gupta
+Again, I think the filters here are super powerful. You can uh look at a specific campaign and see, you know, the insights from that campaign. you can look at a specific um traffic source or channel and see what kind of campaigns have been coming in through that traffic source and uh look at the performance of these these campaigns. Apart from that we have uh more reports ICP analysis giving you understanding of um how much of your traffic fits your ICP and also gives you a distribution of ICP segments.
+
+[00:37:50] Swapnil Gupta
+If you have like multiple ICP segments like most of our customers do you can also look at um you know how much traffic matches with either of the ICP segments dive deeper from there. Similarly, we have um reports on industry, company size and the headquarter of companies where all the traffic is coming from. And of course, we have the pages report giving you visibility on which are the most engaged pages on your website and if the right kind of audience is engaging with these pages or not.
+
+[00:38:25] Swapnil Gupta
+um gives you a proper understanding if you know for example certain channels are bringing in traffic to certain pages and try to understand um you know what kind of conversions we are seeing from these channels and the same we can do for campaigns and goals and right so again this is a lot uh so I'm sure you'll want to get your hands on this uh tool uh so please stick around until the end of this uh this webinar and you'll be able to sign up for a for an early access to to this product.
+
+[00:39:02] Swapnil Gupta
+Um again before I end the live demo on this tool, we have um the option to ask questions about your data. And this is uh in my opinion very powerful because if you if you like your numbers in a specific order of things, if you like your reports in a specific way uh or if you are if you are just curious about some specific questions and uh you think the best way is to essentially type the question and get an answer.
+
+[00:39:32] Swapnil Gupta
+That is how um you can get the answer uh using this feature. You can ask vague questions like how are my campaigns performing? how is my website performing and leader AI will essentially pick the right set of metrics and dimensions that you need to answer that question and pull up a you know super visual answer for you. I've asked how my how are my campaigns performing and I'm seeing that in the last six months I I've tracked about 120 campaigns from my websites and what kind of visits have been coming in from these campaigns.
+
+[00:40:08] Swapnil Gupta
+um you know of course this over time how the visits have been performing and a table right breakdown um right here to analyze each campaign properly and if you don't like the answer you can simply update the question here and generate a fresh answer right out of the box so yes uh that's that's a quick walk through of our upcoming tool again I've said this many times but I'm really super excited about uh where this is heading towards and I can't wait for all of you to get your hands on this and you know share your thoughts and opinions on you know where should this go towards.
+
+[00:40:48] Swapnil Gupta
+If you sign up to this early access you'll get the chance to basically uh um you know take a part in this direction and road map of of this tool that we are working on and help us build it in the right direction. Off to you Bernardo to you know take over the screen.
+
+[00:41:06] Bernardo Vestia
+Yes. And well, I hope everyone is excited as we are with what we've just seen from Swapnil. There's a lot uh and that and that tool um and um many many many insights does the name, right? So with that you'll be able to learn more about your business, what's working, what's not working and you can drive it.
+
+[00:41:33] Bernardo Vestia
+can send then do the actions on the rest of our products using lists and companies and the other tools we have available for you to then um optimize your your performance against the insights you get from insights. Now as um Swapnil has already said you have the opportunity to get your hands into this firsthand.
+
+[00:42:00] Bernardo Vestia
+All you have to do is just let us know if this is something you want to do. So you uh need to answer the question on the poll that says interested in joining our beta program. If your answer is yes, um then we will be in touch soon for you to get access to this uh and whatever other tools we'll be launching in the future. will keep you in mind as someone who wants to have early access and experiment with the things and hopefully provide us with the feedback that we need also to continue to evolve our product.
+
+[00:42:36] Bernardo Vestia
+Um I can see some of you have already said yes. So that's super interesting. Um, and I really really hope we can get the opportunity also to uh talk and and and get feedback from you on this very very very exciting uh new chapter for Leadfeeder. Now um this doesn't end here right swap.
+
+[00:43:04] Swapnil Gupta
+Exactly. uh and that's you know Web Insights but we have more things coming and more exciting u features coming so um as of today when you're using Leadfeeder uh I'm sure you know there's multiple you know pages you need to uh go to you need to click on multiple things to get the answer that you are looking for um you know you are you're in Web Visitors looking at uh the companies that have been on your website uh you want to set up workflows you need to go into workflows and you know set up your workflows manually.
+
+[00:43:36] Swapnil Gupta
+And that's how software used to work until we had this, you know, exciting technology that is really, you know, transforming how software works. And we are, you know, going in that direction. Uh, trying to leverage as much as we can to help our users leverage that technology for their day-to-day, you know, use cases and workflows and essentially get their um, you know, work done faster and easier and, uh, in a more efficient way.
+
+[00:44:03] Swapnil Gupta
+That's where the Leadfeeder agent uh comes in. This is something under the works. Uh you'll get your hands on this um perhaps later this year. So you know we'll we'll have u more time for this to get your hands on but it's going to be working in a super exciting way. You can you this this U Jeff you can follow you can essentially ask it a question and it will do whatever that's necessary to get that answer to you and build all the workflows that needed that are needed uh enrich all the lists that are needed and it will get you the you know um the end result in a super quick way.
+
+[00:44:47] Swapnil Gupta
+Again like I said super excited for you to try this out. Um you if you sign up for the beta program, you'll also get access to this one once we are ready with it. And that's all from my side. Thanks a lot for going through this.
+
+[00:45:06] Bernardo Vestia
+Thank you, Swapnil. Um very exciting stuff. Um we still want to ask you a quick question. I'll just leave this one open because we actually want you to have time to ask us questions. So, we're uh we'll leave the poll open. So, feel free to answer that poll. And the question we're asking now is uh how can we support you better uh at Lee? So, this is something that is very direct.
+
+[00:45:33] Bernardo Vestia
+Um and while you answer that question, I want to go to our Q&A moment. So, please drop the questions you have on the Q&A. You'll find that Q&A in the top left corner right next to polls. So just leave your questions there and we will answer those questions for you.
+
+[00:45:58] Bernardo Vestia
+Um but before we start there's a question I want to ask you directly swap me which is we've seen all of this very exciting stuff you know on people's heads must be the question okay how much does it cost?
+
+[00:46:15] Swapnil Gupta
+Yes, and I have a very short answer for that question. It's nothing, you know, uh for it's already included in the plan that you already have. We also have a free version for this tool. Uh if you want to, you know, get get started with some early features uh and you know and see how it works for your website and for your business, you can also try that out. uh for all our existing customers, all your data, like I said, is going to be in there.
+
+[00:46:42] Swapnil Gupta
+Well, at least for the current year and you can, you know, get your hands on that data as soon as you have access to this tool. It's not going to be it's already included in your current plan.
+
+[00:46:54] Bernardo Vestia
+Yes, thank you for that. And you heard it well. So, it's included in your plan. whatever your plan that you currently have with Leadfeeder, it's already it's going to be there once it goes live for you to to use. You just need to make sure that you have the script installed and then you need to go through the ICP definitions to really make the best out of this the same as the goals definitions, but our teams are here to assist you with that if you need as well.
+
+[00:47:20] Bernardo Vestia
+Um, if you're not a customer yet, um, and you're triing, uh, you're going to have access and again, there's a free version that you can use if you want to experiment, uh, before you make any decisions or any commitments. So, just enjoy those insights that hopefully will help you drive a better um, better business and more quality leads.
+
+[00:47:48] Bernardo Vestia
+Uh one question here for swapnil uh which is let me bring that up. Um is Web Insights already launched and available to us? I think this is an important one just to clarify.
+
+[00:48:07] Swapnil Gupta
+Yes. Um Web Insights is not uh currently launched. We are prepping ourselves to get this um you know available in Leadfeeder very soon and you'll get your hands on it very soon. Uh and I'm sure you know you noticed the poll that that Bernardo started. Please please uh sign up for it if you want you you know to get your hands on it uh sooner than everyone else and you'll get the early access to you and we'll notify you with email uh once you you have it available to you.
+
+[00:48:40] Bernardo Vestia
+All right, there's a few ones here that are about the MCP. So, I'll just share these with my I think uh this one are these insights reports available as endpoints or tools via the API or MCP respectively?
+
+[00:49:00] Mansi Harsh Sheth
+Uh not yet, but that's the direction we want to go towards. So, this is the first version that we want and that would usually be our strategy. So we have this in the UI first. We take your feedback as well, improve it and slowly also roll it out to um our API and MCP. So coming soon.
+
+[00:49:19] Bernardo Vestia
+Thank you. Uh still one on the MCP. So I'm just going to show this one as well. Is the MCP also ready to connect with Google Gemini?
+
+[00:49:30] Mansi Harsh Sheth
+Uh no. Gemini isn't our officially supported list yet. Um we have claude, we have ChatGPT, Cursor and copilot but of course it is not stopping us there. We are exploring um but we need to figure out right now with the enterprise and pro how that actually fits our um models.
+
+[00:49:52] Bernardo Vestia
+Thank you. Uh now let me see what's this is a one for Swapnil and related to Web Insights. it the norm is asking how does it differentiate paid sources from organic sources.
+
+[00:50:09] Swapnil Gupta
+So um we have we track where the traffic is coming from and we uh tag it uh accordingly. Um this is also how most analytics tools work. Um we um you will be able to see the source and medium of traffic coming in. Um and this is through multiple you know ways. If you use UTM tags, um the source and medium comes through that. If you don't use UTM tags, we still uh know where the traffic is coming from and we autotag it for you.
+
+[00:50:39] Swapnil Gupta
+So that's also, you know, something to to know about. And um you know, essentially using traffic uh source and traffic medium, you'll be able to differentiate between paid sources and organic sources. The organic traffic comes in with the organic medium and the paid traffic comes in automatically on our side through CPC medium. But if you use any UTM tag, UTM medium tag that you would prefer, it can also be called something else.
+
+[00:51:05] Swapnil Gupta
+It's totally up to you on how you want to identify this traffic. By default, it comes in as CPC and uh organic
+
+[00:51:15] Bernardo Vestia
+which is a good moment also to say that uh if you want to build UTMs, we've just also launched a free tool where you can build UTMs uh in a very easy way. It's just go into our website and find on the free tools uh area. you will see our UTM builder there and it's going to come very very handy for you to know then what's happening and be able to track all of this in Web Insights and well any other analytics tool for that matter um thank you Swapnil there's there's a question here again I think this one is for you swap so I'm going to show it here what's the best way to use Leadfeeder to identify the new companies landing on the website classify them as ICP or not and then send them to HubSpot.
+
+[00:52:08] Swapnil Gupta
+That is a great question. I'm quite happy that we are sinking in that direction because that is also one of the ways that you know many of our power users um use leader to essentially automate um the entire lead generation pipeline for them. Um and it it's kind of easy um to do with leader. Uh firstly uh to identify the companies landing on the website we do that through Web Visitors.
+
+[00:52:36] Swapnil Gupta
+Um you already see how many companies are coming in, which pages they're engaging with, you know, which are the most important pages for you. You can create custom feeds. Um adding filters uh that matter the most to you to um essentially create a list of companies that uh you are interested in or based on the website activity that they have shown, right? uh to classify them as ICP. We have um you know ICP segments in Leadfeeder.
+
+[00:53:02] Swapnil Gupta
+You can create u multiple of those. Um you can uh define um which uh kind of companies matter the most to you and [clears throat] uh they will be automatically tagged as the ICP you know when they match with it. And uh we have uh workflows. Workflows help you uh connect these custom feeds uh in front Web Visitors um and ensure that as soon as a company comes into your website that has performed the right actions shows the right intent on your website workflows will help you u not only send it to uh to HubSpot it will help you perform AI research on that company like maybe find the most interesting news for that company that you might be you know that that sales might interested in.
+
+[00:53:49] Swapnil Gupta
+Uh it helps you also find the top contacts that you should be reaching out to uh for for all the companies that have been showing this intent and it automatically sends these companies to HubSpot when um you know you schedule it too. So every day or every every hour or every week you'll constantly keep getting new leads for for you in HubSpot.
+
+[00:54:15] Bernardo Vestia
+Thank you. Swapnil. What Swapnil just described isn't as is an automation. It's a loop. So once you get it running, it's it continues to run. And that's where workflows come really handy. By the way, we're having a dedicated um HubSpot um webinar coming very soon. So we'll actually talk about it at the end of this session. So, Patricia, if this is something that you're interested in, please uh sign up and we'll gladly answer even more questions related to how these two very powerful tools can work together.
+
+[00:54:49] Bernardo Vestia
+Uh I have now one uh that I think it's important also again this is for Swapnil the just a an important clarification. We've mentioned signals a few times. Can you please define what you mean by signals?
+
+[00:55:08] Swapnil Gupta
+All right. So, um signals are essentially I would say events that um matter to you, right? And this can be sign of business expansion um some sort of competitive um you know exp competitive comparison or landscape. Uh it can be uh some uh customer acquisition news u mergers and acquisitions. It can be jobs the companies are hiring for.
+
+[00:55:36] Swapnil Gupta
+Sometimes jobs can be an interesting signal um to figure out what kind of products and services the companies are you know looking at or it can be you know changes in leadership or you know partners and collaborations that um you know the companies uh is working on. So essentially these are events I would say that are you know uh relevant to you and you can uh pick the ones that are relevant to you.
+
+[00:56:02] Swapnil Gupta
+using AI enrichment and uh you know find out which companies are essentially showing these signals and essentially based on those signals you can act on on them by setting up workflows like Mansi shared earlier in this session.
+
+[00:56:18] Bernardo Vestia
+Yes. So signals are also a good trigger for things you want to do after. Um we'll uh uh answer all your questions. So we've been logging all the questions. So, we want to make sure that none of these questions get it's unanswered. So, we'll follow up with the questions you ask. It's just looking at time. Just want to highlight a few things before we um we let you go.
+
+[00:56:45] Bernardo Vestia
+If you want to dive deeper into any of these things we've been talking, there's a bunch of resources that we have available for you with our playbooks that helps you. Uh it's essentially how-to guides and how to do things on the academy. You can look at the videos that we create that also uh explain how you can do certain things with Leadfeeder. The help center is a more of a tool that helps you uh look into specifics.
+
+[00:57:15] Bernardo Vestia
+U of course if you want to dive into our success stories and see what other customers have been able to accomplish with us. Um follow our blog and our stream also if you want to know about other marketers stories. upcoming webinars. As I said before, um we have the Leadfeeder MCP one that's for anyone interested about our MCP and the connection to the API uh and how you can use assistance using with the and uh connecting to our Leadfeeder data.
+
+[00:57:46] Bernardo Vestia
+That's going to be the next one. We're going to have one specifically dedicated to Web Insights. Uh so that's also coming. We don't have a date yet, but we will of course let you all know. And we're starting a new series called Marketing in the Wild where we are going to talk about marketing in general. How to do B2B marketing essentially is what we're going to be covering.
+
+[00:58:13] Bernardo Vestia
+And most of those series are um with partners and people in the in the marketing space that will share their um opinions and stories and the results and the things that they've accomplished. The first one we're going to be covering is with the creative program. You can also meet us in person. That would be very nice. We're going to be in Amsterdam for the sassiest uh event uh where Inesh our CPTO is going to talk about how to drive more and better pipeline and also we're going to be at Martekch Nordic uh with Jillian Al's our CMO talking about the future of marketing and AI which is pretty much related to the things we've been talking about today as well.
+
+[00:59:00] Bernardo Vestia
+So thank you everyone. Uh hopefully this was insightful uh and you're as excited as we are with what we've built, but also what is coming up next. And for all of those who have signed up for the beta program, we'll follow up directly one-to-one with each of you so that you can get your hands on with our latest Web Insights tool.
+
+[00:59:27] Bernardo Vestia
+Thank you everyone. Thank you, Swapnil and Mansi for um helping us go through these very exciting announcements today and hopefully we'll talk soon with um more announcements of things that we're building. Thank you everyone. Have a great day and see you soon. Bye.

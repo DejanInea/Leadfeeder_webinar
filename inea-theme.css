@@ -1,0 +1,98 @@
+/* Visual reference: https://www.inea.eu/sl/
+   Roboto; navy #0f232e; blue #307fe2; pale blue #e9f1fb. */
+:root{--ink:#0f232e;--muted:#52636d;--paper:#fff;--line:#dce3e8;--green:#0f232e;--lime:#6ea5eb;--white:#fff;--accent:#307fe2}
+body{font-family:Roboto,Arial,sans-serif;font-weight:400;line-height:1.6;background:#fff}
+.wrap{width:min(1200px,calc(100% - 64px))}
+a{color:#2268bd}
+a:hover{color:#0f232e}
+:focus-visible{outline:3px solid #307fe2;outline-offset:4px}
+.masthead{background:#0f232e;color:white;padding:42px 0 38px;border-top:5px solid #307fe2}
+.masthead .wrap{position:relative;padding-left:28px;border-left:2px solid #307fe2}
+.eyebrow{color:#6ea5eb;font-size:14px;font-weight:400;letter-spacing:.08em;margin-bottom:14px}
+.masthead h1{font-size:clamp(32px,4.5vw,52px);font-weight:300;letter-spacing:-.025em;line-height:1.143;max-width:970px;margin-bottom:22px}
+.head-meta{color:#c3cbd0;font-weight:300;gap:12px 28px}
+.head-meta a{color:#fff;text-decoration-color:#307fe2}
+.head-meta a:hover{color:#6ea5eb}
+.video-link{display:inline-flex;align-items:center;margin-top:24px;padding:11px 20px;border:1px solid #307fe2;background:#307fe2;color:white;text-decoration:none;font-size:16px;font-weight:400;transition:background .2s,color .2s}
+.video-link:hover{background:transparent;color:#6ea5eb}
+.tabbar{background:rgba(255,255,255,.97);border-color:#dce3e8;box-shadow:0 3px 15px #0f232e08}
+.tabs{gap:36px}
+.tab{font-weight:400;color:#52636d;padding:21px 0 18px}
+.tab[aria-selected=true]{color:#0f232e;border-color:#307fe2}
+.tab:hover{color:#307fe2}
+.print{border:1px solid #307fe2;border-radius:0;background:#307fe2;color:#fff;font-weight:400;padding:8px 16px;transition:background .2s,color .2s}
+.print:hover{background:transparent;color:#2268bd}
+#language{border:1px solid #c3cbd0;border-radius:0;color:#0f232e;padding:8px 10px;background:#fff}
+.language-label{color:#52636d}
+main{padding-top:38px}
+h2{font-size:clamp(26px,3vw,36px);line-height:1.2;font-weight:300;letter-spacing:-.02em;margin-bottom:18px}
+h3{font-size:21px;line-height:1.35;font-weight:400}
+strong,b{font-weight:700}
+.intro{color:#52636d;max-width:990px}
+.note{border-left:3px solid #307fe2;background:#e9f1fb;color:#163756;padding:16px 20px;margin:22px 0 26px}
+.toolbar{border:0;border-radius:0;background:#f6f6f7;padding:24px;gap:24px}
+.field label{font-weight:400;color:#0f232e}
+.field input,.field select{border:1px solid #c3cbd0;border-radius:0;padding:12px 14px;color:#0f232e;background:white}
+.field input:focus,.field select:focus{border-color:#307fe2;box-shadow:0 0 0 3px #307fe220}
+.count,.small{color:#52636d}
+.transcript{max-width:990px}
+.utterance{padding:26px 28px;margin:0;border:0;border-bottom:1px solid #dce3e8;border-radius:0;background:#fff;transition:background .2s}
+.utterance:nth-child(even){background:#f6f6f7}
+.utterance:target,.utterance.flash{background:#e9f1fb;box-shadow:inset 3px 0 #307fe2;border-color:#dce3e8}
+.utterance-meta{gap:12px;margin-bottom:14px}
+.avatar{background:#0f232e;color:white;border-radius:50%;width:34px;height:34px;font-family:Roboto,Arial,sans-serif}
+.avatar.SG{background:#e9f1fb;color:#163756}
+.avatar.MS{background:#c3cbd0;color:#0f232e}
+.time{font-family:Roboto,Arial,sans-serif;color:#2268bd;font-variant-numeric:tabular-nums}
+.report-layout{grid-template-columns:190px minmax(0,1fr);gap:48px}
+.toc{gap:6px;border-left:1px solid #c3cbd0;padding-left:18px}
+.toc b{color:#52636d;font-weight:400;letter-spacing:.08em}
+.toc a{color:#0f232e}
+.toc a:hover{color:#2268bd}
+.report-section{padding-top:36px;margin-top:40px;border-color:#dce3e8}
+.kicker{font-family:Roboto,Arial,sans-serif;font-weight:400;color:#2268bd;letter-spacing:.07em;font-size:13px}
+.lead{font-weight:300;font-size:23px;line-height:1.5;color:#0f232e}
+.takeaway{background:#0f232e;border-radius:0;padding:28px 30px;border-left:4px solid #307fe2}
+.takeaway strong{color:#6ea5eb}
+.grid{gap:22px;margin:26px 0}
+.card{border:0;background:#f6f6f7;border-radius:12px;padding:26px}
+.card h3{margin-top:16px}
+.badge,.badge.preview,.badge.future{background:#e9f1fb;color:#163756;border-radius:0;padding:4px 9px;font-weight:400}
+.badge.future{background:#dce3e8;color:#0f232e}
+.source{font-family:Roboto,Arial,sans-serif;font-variant-numeric:tabular-nums;color:#2268bd;border-color:#307fe2}
+.table-wrap{border:1px solid #dce3e8;border-radius:0}
+th{background:#0f232e;color:#fff;font-weight:400;font-size:14px}
+th,td{padding:16px 18px;border-color:#dce3e8}
+tbody tr:nth-child(even){background:#f6f6f7}
+td:first-child{font-weight:400}
+.qa{border-color:#dce3e8;padding:20px 0}
+.checklist li::marker{color:#2268bd;font-weight:700}
+.empty{border:1px solid #c3cbd0;border-radius:0;background:#f6f6f7}
+.glossary dt{font-weight:700;color:#0f232e}
+footer{color:#52636d;border-color:#dce3e8}
+mark{background:#cee3fc;color:#0f232e}
+@media(max-width:800px){
+ .wrap{width:calc(100% - 32px)}
+ .masthead{padding:28px 0}.masthead .wrap{padding-left:18px}
+ .masthead h1{font-size:34px}.head-meta{gap:8px 18px}
+ .report-layout{grid-template-columns:1fr;gap:24px}
+ .toc{border:0;border-bottom:1px solid #dce3e8;padding:0 0 20px}
+ .tabs{gap:28px}.tab{padding-top:16px;padding-bottom:13px}
+ .page-actions{flex-wrap:wrap}.toolbar{padding:18px;gap:16px}
+ .field{min-width:0;flex-basis:100%}.field.speaker{flex:1 1 100%}
+ .utterance{padding:20px 16px}.time{margin-left:46px}
+ .card{padding:22px}.takeaway{padding:22px}
+ main{padding-top:28px}.print{font-size:13px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+@media print{
+ body{font-size:11pt;background:white}.wrap{width:100%}
+ .masthead{border:0;padding:0 0 16px;color:#0f232e;background:white}
+ .masthead .wrap{padding:0;border:0}.masthead h1{font-size:26pt}
+ .head-meta,.head-meta a,.eyebrow{color:#0f232e}
+ .report-layout{display:block}.lead{font-size:14pt}h2{font-size:20pt}h3{font-size:13pt}
+ .utterance,.utterance:nth-child(even){background:white;border-bottom:1px solid #c3cbd0;padding:14px 0}
+ .takeaway{background:#e9f1fb;color:#0f232e}.takeaway strong{color:#0f232e}
+ .card{background:#f6f6f7;border:1px solid #dce3e8}
+ th{background:#e9f1fb;color:#0f232e}a{color:#0f232e}.table-wrap{overflow:visible}
+}
